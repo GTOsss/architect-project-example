@@ -1,0 +1,15 @@
+/** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * Весь файл результат кодогенерации. Не править вручную! * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* */
+
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-empty-object-type */
+import { api } from '#/api/base';
+import { createEffect } from 'effector';
+import * as urls from './urls';
+import { #getCommonTypeNames()# } from './common.types';
+
+#getMethods()#

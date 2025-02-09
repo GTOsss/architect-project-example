@@ -1,0 +1,10 @@
+// import {} from './#name#.types';
+import { createEvent, restore } from 'effector';
+
+const event = createEvent();
+const $store = restore(event, null);
+
+export const #name# = {
+  event,
+  $store,
+};

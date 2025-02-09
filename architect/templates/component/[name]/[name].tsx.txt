@@ -1,0 +1,17 @@
+import React, { memo } from 'react';
+
+// import styles from './#name#.module.css';
+
+type #toCamelCase(name)#Props = {
+  className?: string;
+};
+
+const #toCamelCase(name)#Component: React.FC<#toCamelCase(name)#Props> = ({ className }) => {
+  return (
+    <div className={className}>
+      #toCamelCase(name)#
+    </div>
+  );
+};
+
+export const #toCamelCase(name)# = memo(#toCamelCase(name)#Component);

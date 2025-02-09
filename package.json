@@ -1,0 +1,18 @@
+{
+  "name": "architect-project-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "arc": "arc s"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "architect-project": "^2.0.7",
+    "architect-project-plugin-open-api": "^1.0.1",
+    "eslint": "^9.20.0",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {}
+}

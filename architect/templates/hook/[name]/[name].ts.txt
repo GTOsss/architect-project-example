@@ -1,0 +1,7 @@
+export type #toCamelCase(name)#Params = {
+
+};
+
+export const #toLowerCamelCase(name)# = ({}: #toCamelCase(name)#Params) => {
+
+}
