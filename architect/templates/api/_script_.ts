@@ -3,7 +3,6 @@ import { Config, ParameterInEnum, toArrayMethods, toArrayTypes } from 'architect
 import { OpenAPIV3 } from 'openapi-types';
 import { camelCase, upperFirst, toUpper } from 'lodash';
 
-// todo разобраться почему ломается тип createGeneratorStrByTemplate
 export const genCode = createGeneratorStrByTemplate({ itrStart: '->', itrEnd: '<-' });
 
 const effectTemplate = `
@@ -93,14 +92,6 @@ export const getMethods = (_: unknown, { templateParams }: HelpAPI) => {
       ]
         .filter(Boolean)
         .join();
-
-      // const requestArguments = [
-      //   `getUrl${upperFirst(generatedMethodName)}(${urlParamsTypes ? 'urlParams' : ''})`,
-      //   requestBodyType ? 'data' : 'null',
-      //   queryParamsTypes ? `{ params: queryParams }` : '',
-      // ]
-      //   .filter(Boolean)
-      //   .join();
 
       const methodParametersTypeName = [upperFirst(method), upperFirst(camelCase(generatedMethodName)), 'Params'].join(
         '',
